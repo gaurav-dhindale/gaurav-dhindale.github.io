@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" id="mySidebar"><br>
+    
+    <div >
+        <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu"></a>
+        <div class="background-image"></div>
+        <h4><b><p class="contact-title">Gaurav A. Dhindale</p></b></h4>
+    </div>
+
+    <!-- <div class="dropdown">
+        <p class="contact-title">Contact</p>
+        <div class="dropdown-content">
+            <p><a href="https://gaurav-dhindale.github.io" target="_blank" class="social-link"><img src="images/web_link.png" alt="Browser Image" style="width:8%;vertical-align: middle;">&nbsp;&nbsp;gaurav-dhindale.github.io</a></p>
+            <p><a href="mailto:gauravdhindale98@gmail.com" class="social-link"><img src="images/gmail_2.png" alt="Gmail Logo" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;gauravdhindale98@gmail.com</a></p>
+            <p><a href="https://github.com/gaurav-dhindale" target="_blank" class="social-link"><img src="images/git.png" alt="GitHub Logo" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;gaurav-dhindale</a></p>
+            <p><a href="https://www.linkedin.com/in/gaurav-dhindale" target="_blank" class="social-link"><img src="images/link.jfif" alt="LinkedIn Logo" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;/in/gaurav-dhindale</a></p>
+            <p><a href="https://www.instagram.com/gaurav_dhindale" target="_blank" class="social-link"><img src="images/insta.jfif" alt="Instagram Logo" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;/instagram/gaurav_dhindale</a></p>
+            <p><a href="https://goo.gl/maps/zj4Xk7a9NVQEHJzp9" target="_blank" class="social-link"><img src="images/location.png" alt="Loaction Logo" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;IIT Kharagpur, West Bengal, India</a></p>
+        </div>
+    </div> -->
+
+    <div >
+        <div>
+          <p class="contact-title">Contact</p>
+          <p><a href="https://gaurav-dhindale.github.io" target="_blank" class="social-link"><img src="images/web_link.png" alt="Browser Image" style="width:8%;vertical-align: middle;">&nbsp;&nbsp;gaurav-dhindale.github.io</a></p>
+          <p><a href="mailto:gauravdhindale98@gmail.com" class="social-link"><img src="images/gmail_2.png" alt="Gmail Logo" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;gauravdhindale98@gmail.com</a></p>
+          <p><a href="https://github.com/gaurav-dhindale" target="_blank" class="social-link"><img src="images/git.png" alt="GitHub Logo" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;gaurav-dhindale</a></p>
+          <p><a href="https://www.linkedin.com/in/gaurav-dhindale" target="_blank" class="social-link"><img src="images/link.jfif" alt="LinkedIn Logo" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;/in/gaurav-dhindale</a></p>
+          <p><a href="https://www.instagram.com/gaurav_dhindale" target="_blank" class="social-link"><img src="images/insta.jfif" alt="Instagram Logo" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;/instagram/gaurav_dhindale</a></p>
+          <p><a href="https://goo.gl/maps/zj4Xk7a9NVQEHJzp9" target="_blank" class="social-link"><img src="images/location.png" alt="Loaction Logo" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;IIT Kharagpur, West Bengal, India</a></p>
+        </div>
+      </div>
+
+    <div>
+        <div style="text-align: center;">
+            <p class="contact-title">Education</p>
+        </div>
+        <div style="text-align: left;">
+          <p><a href="http://www.ee.iitkgp.ac.in/SPML" target="_blank" class="edu-link"><img src="images/book.png" alt="Book Image" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;M.Tech, Signal Processing And     Machine Learning (SPML), IIT Kharagpur</a></p>  
+          <p><a href="https://engg.kkwagh.edu.in/" target="_blank" class="edu-link"><img src="images/cap_2.png" alt="Cap Image" style="width:10%;vertical-align: middle;">&nbsp;&nbsp;B.E, Electrical Engineering, K.K.Wagh Collage, Nashik</a></p>  
+        </div>
+    </div>
+    
+    
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main">
+    <!-- ... Existing content ... -->
+
+    <!-- About Me -->
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of AI 
+       and Machine Learning. I want to share my world of knowledge with you.</p>
+    <hr>
+
+
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="images\image2.jpg" style="width:20%;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+  
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+
+      <div class="container">
+        <img src="images\image4.jpg" alt="Project1" width="25%" style="float: left; margin-right: 20px;">
+        <p><b>Project 1</b><br>This is about noice cancellation in sound clips.
+          <br>Click here :<a link rel="stylesheet" href="https://aaniketa.github.io/">my page</a></p>
+    </div>
+<!-- 2nd Photo Grid-->
+    <br>
+      <div class="container">
+      <!--  <img src="C:\Users\Rituja\Downloads\image2.jpg" alt="Project2" width="25%" style="float: left; margin-right: 20px;">-->
+        <p><b>Project 2</b><br> My Instagram account 
+          <br>Click here :<a link rel="stylesheet" href="https://www.instagram.com/">my insta account</a></p>
+    </div>
+    <!--3rd Photo Grid-->
+    <br>
+    <div class="container">
+      <img src="images\image3.jpg" alt="Project3" width="25%" style="float: left; margin-right: 20px;">
+        <p><b>Project 3</b><br>description
+        <br>Click here :<a link rel="stylesheet" href="https://www.instagram.com/">my insta account</a></p>
+    </div>
+    <br>
+     <!--4th Photo Grid-->
+     <div class="container">
+      <img src="images\image1.jpg" alt="Project4" width="25%" style="float: left; margin-right: 20px;">
+        <p><b>Project 4</b><br>description
+        <br>Click here :<a link rel="stylesheet" href="https://classroom.codingninjas.com/app/login?redirect=%2F%3F&logged_out=true">coding ninjas</a></p>
+    </div>
+    <br>
+     <!--5th Photo Grid-->
+     <div class="container">
+      <img src="images\image1.jpg" alt="Project5" width="25%" style="float: left; margin-right: 20px;">
+        <p><b>Project 5</b><br>description
+        <br>Click here :<a link rel="stylesheet" href="https://classroom.codingninjas.com/app/login?redirect=%2F%3F&logged_out=true">coding ninjas</a></p>
+    </div>
+    <br>
+
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+</div>
+
+<script>
+// ... Existing JavaScript ...
+
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
