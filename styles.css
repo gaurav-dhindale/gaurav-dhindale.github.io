@@ -7,6 +7,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
 /* Global Styles */
 body {
     font-family: "Raleway", sans-serif;
+    /* background: url('images/background.jpg') center/cover no-repeat; */
 }
 
 .container {
@@ -15,16 +16,36 @@ body {
 }
 
 
+/* Define the style for project titles */
+.project-title {
+  font-weight: bold;
+  font-size: 22px; /* Adjust the font size as needed */
+  font-family: Arial, sans-serif; /* Adjust the font family as needed */
+}
+
+/* Define the style for project content lines */
+.project-content {
+  font-size: 16px; /* Adjust the font size as needed */
+  font-family: Arial, sans-serif; /* Adjust the font family as needed */
+}
+
+
+
+
 
 /* Main Content Styles */
 .w3-main {
-    margin-left: 300px;
+    margin-left: 1px;
+    background-color: rgba(32, 24, 24, 0.9); /* Faint white overlay color */
+    color: #fcfafa; /* Adjust the color as needed */
 }
 
 /* Sidebar Styles */
 .w3-sidebar {
     z-index: 3;
     width: 300px;
+    background-color: rgba(32, 24, 24, 0.9); /* Faint white overlay color */
+    color: #fcfafa; /* Adjust the color as needed */
 }
 
 .w3-sidebar a.w3-jumbo {
@@ -50,7 +71,7 @@ body {
 }
 
 .social-link {
-    color: blue;
+    color: rgb(115, 115, 230);
     text-decoration: none;
     display: block;
     margin-bottom: 10px;
@@ -58,7 +79,7 @@ body {
 
 
 .edu-link {
-    color: rgb(22, 22, 31);
+    color: rgb(225, 225, 235);
     text-decoration: none;
     display: block;
     margin-bottom: 10px;
@@ -103,8 +124,7 @@ body {
 
 
 
-
-
+/* Droopdown menu */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -126,3 +146,53 @@ body {
   }
   
 
+
+
+
+
+
+  /* Styles for the welcome popup */
+.welcome-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .welcome-popup img {
+    max-width: 80%;
+    max-height: 80%;
+    animation: welcomeAnimation 8s forwards;
+  }
+  
+  /* Animation for welcome popup disappearance */
+  @keyframes welcomeAnimation {
+    0% {
+      transform: scale(1) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.2) rotate(180deg);
+      opacity: 0;
+    }
+  }
+
+  
+
+
+
+/* Background Video Settings */
+  #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+    z-index: -1;
+  }
